@@ -9,14 +9,19 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        .heading {
-            background-color: aquamarine;
+        button {
+            background-color: cadetblue;
             padding: 5px;
-            margin: 10px;
-            color: rgb(44, 177, 170);
-            text-align: center;
+            border-radius: 5px;
+            border-style: none;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
         }
     </style>
+    <script src="index.js"></script>
 </head>
 <body>
     
@@ -27,7 +32,21 @@
         </p>
     </div> 
 
-    <script src="index.js"></script>
+    <br>
+    <hr>
+    <br>
+
+    <p id="paragraf"></p>
+
+    <script>
+        
+        document.getElementById("paragraf").innerHTML = "<h4> halo gusy </h4>"; 
+
+        document.getElementById("paragraf").innerText = "tung tung tung sahur";
+
+    </script>
+
+    <button onclick="print()">print this page</button> //onclick adalah pada saat kita memencet tombol 
 
 </body>
 </html>

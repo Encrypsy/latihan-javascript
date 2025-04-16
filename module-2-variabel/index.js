@@ -40,6 +40,6 @@ console.log("let: ", name) //error, karena 'let' tidak bisa di akses di luar sco
 */
 
 if (true) {
-    const apa = 10;
+    const apa = 100;
     console.log("const: ", apa)
 }
