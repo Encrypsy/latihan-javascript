@@ -68,6 +68,16 @@ function sayWelcome() {
 console.log("[ ", sayWelcome," ]", " bertipe data: ", typeof sayWelcome) // sayWelcome() itu akan meng-outputkan isi dari function nya
 
 
+// tipe data primitif //
+
+var a = 10
+// var a = 20 -> jika simpen di atas 'b', maka akan berubah menjadi 20
+var b = a // 'b' ini akan menyimpan salinan dari 'a' yang berada di posisi atasnya, jadi valuenya masih bernilai 10
+
+a = 20
+
+console.log(b)
+
 
 
 
